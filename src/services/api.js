@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/orders'; // URL của backend API
+const API_URL = 'http://localhost:5129/api/Orders'; // URL của backend API
 
 // Lấy danh sách đơn hàng
 export const getOrders = async () => {
